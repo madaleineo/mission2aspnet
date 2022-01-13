@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!--A webpage title-->
+    <title>About Madaleine</title>
+
+    <!--Style the site using Bootstrap.-->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!--Include at least one change to the styling using your own CSS file-->
+    <link href="css/mycss.css" rel="stylesheet" />
+
+    <!--An icon for the website (displayed on the tab next to the website title)
+    (#notcoveredinthevideos)-->
+    <link rel="icon" type="image/png" href="img/favicon1.png" sizes="16x16">
+
+</head>
+<body class="container center-cont">
+    <br />
+    <!--Header that lists my preferred name-->
+    <h1>Madaleine</h1>
+    <br />
+
+    <!--A picture of yourself doing something you enjoy-->
+    <img src="img/funThings.png" style="width:50%;" />
+    <br /><br />
+
+    <!--A paragraph on what you hope to get out of this IS 413 class-->
+    <h3>What I hope to get out of IS 413 Class: </h3>
+    <p>
+        I hope to practice my programming skills a ton with this class and solidify the knowledge that I have already gained
+        in programming by practicing it again and again. I hope to gain more confidence in programming as well since that is
+        something I would like to do in my career.
+    </p>
+
+    <!--A list of the Top #3 jobs you are most interested in pursuing when you graduate-->
+    <h3>The top 3 jobs I am most interested in: </h3>
+    <ol>
+        <li>Web Developer</li>
+        <li>Software Developer</li>
+        <li>Cloud Engineer/Architect</li>
+    </ol>
+
+    <!--A "Grade Calculator" form that takes as input a percentage scored for each grade
+    category listed in the syllabus-->
+    <form>
+        <h3>Grade Calculator</h3>
+        <p>Insert the percentage scored for each grade category listed below. </p>
+        <br />
+        <label>Assignments: </label>
+        <input id="assignments" type="number" />
+        <br /><br />
+        <label>Group Projects: </label>
+        <input id="groupProjects" type="number" />
+        <br /><br />
+        <label>Quizzes: </label>
+        <input id="quizzes" type="number" />
+        <br /><br />
+        <label>Exams: </label>
+        <input id="exams" type="number" />
+        <br /><br />
+        <label>INTEX: </label>
+        <input id="intex" type="number" />
+        <br /><br />
+        <input id="btnGrade" type="button" value="Calculate" />
+    </form>
+    <br />
+
+    <!--Style the site using Bootstrap.-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/mycalc.js"></script>
+
+</body>
+</html>
